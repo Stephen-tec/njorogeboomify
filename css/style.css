@@ -3,6 +3,29 @@ body {
   color: #fff;
   font-family: 'Segoe UI', sans-serif;
 }
+.artist-card {
+  background-color: #181818;
+  border-radius: 16px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  background-color: #282828;
+}
+
+.artist-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid #1db954;
+  display: block;
+  margin: 0 auto;
+}
 
 /* NAVBAR */
 #mainNav {
