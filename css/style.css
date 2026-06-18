@@ -1,0 +1,79 @@
+/* ===== BASE ===== */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===== LIGHT MODE ===== */
+body.light-mode {
+  background-color: #f5f5f5;
+  color: #121212;
+}
+
+body.light-mode .bg-dark {
+  background-color: #ffffff !important;
+}
+
+body.light-mode .bg-black {
+  background-color: #eeeeee !important;
+}
+
+body.light-mode .text-muted {
+  color: #555 !important;
+}
+
+body.light-mode .boomify-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+/* ===== NAVBAR ===== */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* ===== HERO ===== */
+.hero-section {
+  background: linear-gradient(135deg, #000000, #0a0a0a, #003300);
+  min-height: 90vh;
+}
+
+/* ===== CARDS ===== */
+.boomify-card {
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+}
+
+.boomify-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 255, 0, 0.15);
+}
+
+/* ===== ARTIST CARDS ===== */
+.artist-card {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.artist-card:hover {
+  transform: translateY(-5px);
+  border-color: #28a745;
+}
+
+/* ===== FOOTER ===== */
+footer a {
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
