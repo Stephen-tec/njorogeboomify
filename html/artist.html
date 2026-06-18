@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boomify - Artists</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Boomify</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+          <li class="nav-item"><a class="nav-link" href="playlist.html">Playlists</a></li>
+          <li class="nav-item"><a class="nav-link active" href="artist.html">Artists</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero text-white text-center">
+    <h1 class="display-4 fw-bold">Featured <span class="highlight">Artists</span></h1>
+    <p class="lead mt-2">The voices behind your favourite playlists.</p>
+  </section>
+
+  <!-- ARTISTS GRID -->
+  <section class="py-5">
+    <div class="container">
+      <h4 class="mb-4 section-title">Top 5 Artists</h4>
+      <div class="row g-4 justify-content-center">
+
+        <!-- Artist 1 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="artist-card text-center p-3">
+            <img src="../images/artist1.jpg" alt="Burna Boy" class="artist-img mb-3"/>
+            <p class="fw-bold text-white mb-0">Burna Boy</p>
+            <small class="text-muted">Afrobeats</small>
+            <div class="mt-2">
+              <span class="badge genre-badge">42M listeners</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artist 2 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="artist-card text-center p-3">
+            <img src="../images/artist2.jpg" alt="Sauti Sol" class="artist-img mb-3"/>
+            <p class="fw-bold text-white mb-0">Sauti Sol</p>
+            <small class="text-muted">Afropop</small>
+            <div class="mt-2">
+              <span class="badge genre-badge">8M listeners</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artist 3 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="artist-card text-center p-3">
+            <img src="../images/artist3.jpg" alt="Bien" class="artist-img mb-3"/>
+            <p class="fw-bold text-white mb-0">Bien</p>
+            <small class="text-muted">R&B · Soul</small>
+            <div class="mt-2">
+              <span class="badge genre-badge">3M listeners</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artist 4 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="artist-card text-center p-3">
+            <img src="../images/artist4.jpg" alt="Ayra Starr" class="artist-img mb-3"/>
+            <p class="fw-bold text-white mb-0">Ayra Starr</p>
+            <small class="text-muted">Afrobeats</small>
+            <div class="mt-2">
+              <span class="badge genre-badge">18M listeners</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artist 5 -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="artist-card text-center p-3">
+            <img src="../images/artist5.jpg" alt="Tems" class="artist-img mb-3"/>
+            <p class="fw-bold text-white mb-0">Tems</p>
+            <small class="text-muted">Afrosoul</small>
+            <div class="mt-2">
+              <span class="badge genre-badge">25M listeners</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- NOW TRENDING BY ARTISTS -->
+  <section class="py-4">
+    <div class="container">
+      <h4 class="mb-4 section-title">Trending Tracks</h4>
+      <div class="row g-3">
+
+        <div class="col-md-6">
+          <div class="recent-card d-flex align-items-center gap-3 p-3">
+            <div class="recent-cover" style="background: linear-gradient(135deg, #f7971e, #ffd200);">
+              <i class="bi bi-music-note"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="mb-0 fw-bold text-white">Last Last</p>
+              <small class="text-muted">Burna Boy</small>
+            </div>
+            <small class="text-muted">3:47</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="recent-card d-flex align-items-center gap-3 p-3">
+            <div class="recent-cover" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+              <i class="bi bi-music-note"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="mb-0 fw-bold text-white">Extravagant</p>
+              <small class="text-muted">Sauti Sol</small>
+            </div>
+            <small class="text-muted">4:12</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="recent-card d-flex align-items-center gap-3 p-3">
+            <div class="recent-cover" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+              <i class="bi bi-music-note"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="mb-0 fw-bold text-white">Reach the Top</p>
+              <small class="text-muted">Bien</small>
+            </div>
+            <small class="text-muted">3:22</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="recent-card d-flex align-items-center gap-3 p-3">
+            <div class="recent-cover" style="background: linear-gradient(135deg, #fc5c7d, #6a3093);">
+              <i class="bi bi-music-note"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="mb-0 fw-bold text-white">Rush</p>
+              <small class="text-muted">Ayra Starr</small>
+            </div>
+            <small class="text-muted">2:58</small>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="recent-card d-flex align-items-center gap-3 p-3">
+            <div class="recent-cover" style="background: linear-gradient(135deg, #f83600, #f9d423);">
+              <i class="bi bi-music-note"></i>
+            </div>
+            <div class="flex-grow-1">
+              <p class="mb-0 fw-bold text-white">Free Mind</p>
+              <small class="text-muted">Tems</small>
+            </div>
+            <small class="text-muted">3:51</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-4 mt-4">
+    <small class="text-muted">&copy; 2026 Boomify — Made in Nairobi</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
