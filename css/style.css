@@ -1,4 +1,4 @@
-/* ===== BASE ===== */
+
 body {
   background-color: #121212;
   color: #ffffff;
@@ -6,7 +6,7 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ===== LIGHT MODE ===== */
+
 body.light-mode {
   background-color: #f5f5f5;
   color: #121212;
@@ -29,7 +29,7 @@ body.light-mode .boomify-card {
   border: 1px solid #ddd;
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar-brand {
   font-size: 1.5rem;
   letter-spacing: 1px;
