@@ -89,3 +89,18 @@ body {
   font-size: 1.5rem;
   flex-shrink: 0;
 }
+.hero-section {
+    /* Using the relative path to your image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/subie.jpg.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px; 
+    
+    /* Vertically and horizontally centers the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
