@@ -5,76 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Boomify - Blog</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
   <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.html">Boomify</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav
-    ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
-            <li class="nav-item"><a class="nav-link" href="playlist.html">Playlists</a></li>
-            <li class="nav-item"><a class="nav-link active" href="artist.html">Artists</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+          <li class="nav-item"><a class="nav-link" href="playlist.html">Playlists</a></li>
+          <li class="nav-item"><a class="nav-link" href="artist.html">Artists</a></li>
+          <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
         </ul>
       </div>
     </div>
-    </nav>
-<div id="greeting"></div>
-<div id="dateTime"></div>
-<script src="../js/js.js"></script>
+  </nav>
 
+  <!-- HERO -->
+  <section class="hero text-white text-center">
+    <h1 class="display-4 fw-bold">My Music <span class="highlight">Story</span></h1>
+    <p class="lead">A personal look at the artist who shaped my taste in music.</p>
+  </section>
 
+  <!-- BLOG CONTENT -->
+  <section class="py-5">
+    <div class="container blog-content">
 
- <div class="info-box">
-                <strong> Where:</strong> Radio<br>
-                <strong> When:</strong> November 2021<br>
-                <strong> First Track:</strong> Runaway (feat. Pusha T)
-            </div>
+      <h2 class="text-white mb-3">Why I Love Kanye West</h2>
 
-            <h2>💭 Why I Love Kanye West</h2>
-            <p>
-                Kanye's production is revolutionary. He samples everything from soul records to orchestral pieces and creates something 
-                entirely new. His ability to make club bangers, introspective ballads, and experimental tracks with equal mastery is unmatched. 
-                Beyond the beats, his lyrics touch on personal struggles, ambition, and social commentary. He's not just an artist – he's a 
-                visionary who has influenced hip-hop and popular culture.
-            </p>
+      <div class="info-box mb-4">
+        <p class="mb-1"><strong>Where I discovered him:</strong> Radio</p>
+        <p class="mb-1"><strong>When:</strong> November 2021</p>
+        <p class="mb-0"><strong>First track:</strong> Runaway (feat. Pusha T)</p>
+      </div>
 
-              <h2> My Stats</h2>
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-number">2,340</div>
-                    <div class="stat-label">Total Plays</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">5+</div>
-                    <div class="stat-label">Years Listening</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">89</div>
-                    <div class="stat-label">Unique Tracks</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">10</div>
-                    <div class="stat-label">Albums</div>
-                </div>
-            </div>
+      <p class="text-light">
+        Kanye's production is revolutionary. He samples everything from soul records to orchestral pieces and creates
+        something entirely new. His ability to make club bangers, introspective ballads, and experimental tracks with
+        equal mastery is unmatched. Beyond the beats, his lyrics touch on personal struggles, ambition, and social
+        commentary. He's not just an artist — he's a visionary who has influenced hip-hop and popular culture.
+      </p>
 
-             <h2> Albums Worth Exploring</h2>
-            <div class="tracks-list">
-                <ul>
-                    <li><strong>The College Dropout (2004)</strong> - Fresh debut, soulful and brilliant.</li>
-                    <li><strong>Late Registration (2005)</strong> - Orchestral production masterpiece.</li>
-                    <li><strong>My Beautiful Dark Twisted Fantasy (2010)</strong> - Widely considered his best work.</li>
-                    <li><strong>808s & Heartbreak (2008)</strong> - Experimental and ahead of its time.</li>
-                    <li><strong>Yeezus (2013)</strong> - Raw and abrasive, boldly different.</li>
-                </ul>
-            </div>
+      <h2 class="text-white mt-5 mb-4">My Stats</h2>
+      <div class="row g-3 text-center">
+        <div class="col-6 col-md-3">
+          <div class="stat-card p-3">
+            <div class="stat-number">2,340</div>
+            <small class="text-muted">Total Plays</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card p-3">
+            <div class="stat-number">5+</div>
+            <small class="text-muted">Years Listening</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card p-3">
+            <div class="stat-number">89</div>
+            <small class="text-muted">Unique Tracks</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card p-3">
+            <div class="stat-number">10</div>
+            <small class="text-muted">Albums</small>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-white mt-5 mb-3">Albums Worth Exploring</h2>
+      <ul class="album-list">
+        <li><strong>The College Dropout (2004)</strong> — Fresh debut, soulful and brilliant.</li>
+        <li><strong>Late Registration (2005)</strong> — Orchestral production masterpiece.</li>
+        <li><strong>My Beautiful Dark Twisted Fantasy (2010)</strong> — Widely considered his best work.</li>
+        <li><strong>808s & Heartbreak (2008)</strong> — Experimental and ahead of its time.</li>
+        <li><strong>Yeezus (2013)</strong> — Raw and abrasive, boldly different.</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <footer class="text-center py-4 mt-4">
+    <small>&copy; 2026 Boomify — Made in Nairobi</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

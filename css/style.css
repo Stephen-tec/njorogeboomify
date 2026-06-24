@@ -190,3 +190,50 @@ footer {
   border-top: 1px solid #1a2a4a;
   color: #5398ec;
 }
+.blog-content {
+  max-width: 800px;
+}
+
+.info-box {
+  background-color: #0d1f3c;
+  border: 1px solid #1a3a6a;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.stat-card {
+  background-color: #0d1f3c;
+  border: 1px solid #1a3a6a;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00b4ff, #0066ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.album-list {
+  list-style: none;
+  padding: 0;
+}
+
+.album-list li {
+  background-color: #0d1f3c;
+  border: 1px solid #1a3a6a;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  color: #cdd9ec;
+}
+
+.album-list strong {
+  color: #fff;
+}
