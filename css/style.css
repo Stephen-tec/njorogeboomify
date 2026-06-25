@@ -237,3 +237,16 @@ footer {
 .album-list strong {
   color: #fff;
 }
+.about-content {
+  max-width: 800px;
+}
+.value-card:hover {
+  transform: translateY(-5px);
+  background-color: #162d52;
+}
+.value-card {
+  background-color: #0d1f3c;
+  border: 1px solid #1a3a6a;
+  border-radius: 16px;
+  transition: transform 0.2s;
+}
