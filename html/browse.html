@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boomify - Browse</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="../css/style.css"/>
-
+    <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand fw-bold" href="index.html">Boomify</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -18,22 +18,64 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+          <li class="nav-item"><a class="nav-link active" href="browse.html">Browse</a></li>
           <li class="nav-item"><a class="nav-link" href="playlist.html">Playlists</a></li>
           <li class="nav-item"><a class="nav-link" href="artist.html">Artists</a></li>
           <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link active" href="contacts.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
         </ul>
       </div>
-
     </div>
   </nav>
-<div id="greeting"></div>
-<div id="dateTime"></div>
-<script src="../js/js.js"></script>
-    <h1>Boomify - Browse</h1>
-    <p>Welcome to the Browse page!</p>
 
+  <section class="hero text-white text-center">
+    <h1 class="display-4 fw-bold">Browse <span class="highlight">Music</span></h1>
+    <p class="lead">Explore songs by genre.</p>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+
+      <!-- Simple buttons -->
+      <button class="genre-btn" onclick="filterSongs('all')">All</button>
+      <button class="genre-btn" onclick="filterSongs('gospel')">Gospel</button>
+      <button class="genre-btn" onclick="filterSongs('hiphop')">Hip Hop</button>
+      <button class="genre-btn" onclick="filterSongs('romantic')">Romantic</button>
+
+      <div class="row g-3 mt-4">
+
+        <div class="col-md-4 song-item" data-genre="hiphop">
+          <div class="song-card p-3">
+            <p class="mb-0 fw-bold text-white">Gorgeous</p>
+            <small class="text-muted">Kanye West · Hip Hop</small>
+          </div>
+        </div>
+
+        <div class="col-md-4 song-item" data-genre="gospel">
+          <div class="song-card p-3">
+            <p class="mb-0 fw-bold text-white">Way Maker</p>
+            <small class="text-center py-4 mt-4">N3W Playlist · Gospel</small>
+          </div>
+        </div>
+
+        <div class="col-md-4 song-item" data-genre="romantic">
+          <div class="song-card p-3">
+            <p class="mb-0 fw-bold text-white">Stay</p>
+            <small class="text-center py-4 mt-4">Rihanna · Romantic</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 mt-4">
+    <small>&copy; 2026 Boomify — Made in Nairobi</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/browse.js"></script>
 </body>
 </html>
