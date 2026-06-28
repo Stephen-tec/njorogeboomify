@@ -64,3 +64,14 @@ if (document.readyState === 'loading') {
   // DOM is already loaded
   initializeGreetings();
 }
+const feedbackForms = document.querySelectorAll('.feedback-form');
+
+feedbackForms.forEach(form => {
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const successMsg = form.querySelector('.feedback-success');
+    successMsg.classList.remove('d-none');
+    form.reset();
+    setTimeout(() => successMsg.classList.add('d-none'), 3000);
+  });
+});

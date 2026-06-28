@@ -285,3 +285,8 @@ footer {
   padding: 6px 0;
   border-bottom: 1px solid #1a3a6a;
 }
+.feedback-box {
+  background-color: #0d1f3c;
+  border: 1px solid #1a3a6a;
+  border-radius: 12px;
+}
